@@ -38,7 +38,12 @@ function HomePage() {
     <div>
       <h2>Welcome to Dog App</h2>
       <p>Select Breeds to view dogs.</p>
-    
+      
+    <div> 
+        <button onClick={ () => console.log('clicked') }> 
+  Click me
+</button>
+      </div>
 
       {/* simple calculator section */}
       <div style={{ marginTop: "2rem" }}>
