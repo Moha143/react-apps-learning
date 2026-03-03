@@ -1,5 +1,5 @@
 function BreedCard({ breed }) {
-  const { name, description, life, hypoallergenic } = breed.attributes;
+  // const { name, description, life, hypoallergenic } = breed.attributes;
   const names = breed.attributes.name;
   const descriptions = breed.attributes.description;
   const lifeSpans = breed.attributes.life;
