@@ -26,6 +26,10 @@ function Navbar() {
         <Link to="/about" style={{ color: "#fff", textDecoration: "none" }}>
           {'About'}
         </Link>
+
+        <Link to="/atom" style={{ color: "#fff", textDecoration: "none" }}>
+          {'Atom Testing'}
+        </Link>
       </div>
     </nav>
   );
