@@ -1,5 +1,6 @@
 import { useAtom } from "jotai";
 import { countAtom } from "../store/atoms";
+import Counter from "../components/data/Counter";
 
 const AtomTesting = () => {
   const [count, setCount] = useAtom(countAtom); 
@@ -11,6 +12,7 @@ const AtomTesting = () => {
 
       <button onClick={() => setCount(count + 1)}>Increase</button>
       <button onClick={() => setCount(count - 1)}>Decrease</button>
+        <Counter />
     </div>
   );
   

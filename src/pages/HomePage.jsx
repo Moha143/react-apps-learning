@@ -1,7 +1,7 @@
 
 // import ReactPlayer from "react-player/youtube";
 import React, { useState } from "react"; 
- 
+ import Counter from "../components/data/Counter";
 function HomePage() {
   // calculator state
   const [input, setInput] = useState("");
@@ -44,7 +44,7 @@ function HomePage() {
   Click me
 </button>
       </div>
-
+  <Counter />
       {/* simple calculator section */}
       <div style={{ marginTop: "2rem" }}>
         <h3>Simplest Working Calculator</h3>
